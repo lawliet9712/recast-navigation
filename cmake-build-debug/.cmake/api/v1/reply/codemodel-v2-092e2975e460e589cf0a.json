@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-3962c1d814ab7bbcd930.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "DebugUtils",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-DebugUtils-Debug-2c130eac9406141fd3d4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "DebugUtils",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "Detour",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-Detour-Debug-ed945ebfb149f4f548c8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Detour",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "DetourCrowd",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-DetourCrowd-Debug-2f0502e505fb52adc223.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "DetourCrowd",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "DetourTileCache",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-DetourTileCache-Debug-5ac4cfa0ef836e91deda.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "DetourTileCache",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "Recast",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-Recast-Debug-72e9f04605c770c7ea0f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Recast",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "RecastDemo",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-RecastDemo-Debug-fcff4f09c693cfcb40ca.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "RecastDemo",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "Tests",
+					"jsonFile" : "directory-Tests-Debug-4930e65484166898b195.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Tests",
+					"targetIndexes" : 
+					[
+						6
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					],
+					"name" : "RecastNavigation",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "DebugUtils::@70086530efcf9f3aa15a",
+					"jsonFile" : "target-DebugUtils-Debug-e07fdab172b96ce75f73.json",
+					"name" : "DebugUtils",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Detour::@af02d6d6a7de8e2ccf3d",
+					"jsonFile" : "target-Detour-Debug-9071d9dc912a75f7ec28.json",
+					"name" : "Detour",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "DetourCrowd::@d390c63f21d3b25443dd",
+					"jsonFile" : "target-DetourCrowd-Debug-e315f22990c89c5c9798.json",
+					"name" : "DetourCrowd",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "DetourTileCache::@2b762027dffdb35e9e0d",
+					"jsonFile" : "target-DetourTileCache-Debug-0e461fd1bff78f0f3a6e.json",
+					"name" : "DetourTileCache",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "Recast::@d233a775a36d06e0885c",
+					"jsonFile" : "target-Recast-Debug-c9aaa883b967007bfb3a.json",
+					"name" : "Recast",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "RecastDemo::@b127d3e209700d9004d6",
+					"jsonFile" : "target-RecastDemo-Debug-013c366592983a8eeec2.json",
+					"name" : "RecastDemo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "Tests::@3e3005ae7443f751ac85",
+					"jsonFile" : "target-Tests-Debug-bf7ab2503d0b06c3df48.json",
+					"name" : "Tests",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "E:/recastnavigation/recastnavigation-master/cmake-build-debug",
+		"source" : "E:/recastnavigation/recastnavigation-master"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

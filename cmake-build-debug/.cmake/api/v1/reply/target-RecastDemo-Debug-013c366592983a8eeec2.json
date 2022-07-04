@@ -1,0 +1,577 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "RecastDemo/RecastDemo.exe"
+		},
+		{
+			"path" : "RecastDemo/RecastDemo.pdb"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"install",
+			"target_link_libraries",
+			"add_dependencies",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"RecastDemo/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 24,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 57,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 56,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 15,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 17,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 18,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 19,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 20,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 13,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 14,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 3,
+					"define" : "main=SDL_main"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 5,
+					"path" : "E:/recastnavigation/recastnavigation-master/RecastDemo/../DebugUtils/Include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "E:/recastnavigation/recastnavigation-master/RecastDemo/../Detour/Include"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "E:/recastnavigation/recastnavigation-master/RecastDemo/../DetourCrowd/Include"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "E:/recastnavigation/recastnavigation-master/RecastDemo/../DetourTileCache/Include"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "E:/recastnavigation/recastnavigation-master/RecastDemo/../Recast/Include"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "E:/recastnavigation/recastnavigation-master/RecastDemo/Include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "E:/recastnavigation/recastnavigation-master/DebugUtils/Include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "E:/recastnavigation/recastnavigation-master/Recast/Include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "E:/recastnavigation/recastnavigation-master/Detour/Include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "E:/recastnavigation/recastnavigation-master/DetourTileCache/Include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "E:/recastnavigation/recastnavigation-master/DetourCrowd/Include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "E:/recastnavigation/recastnavigation-master/RecastDemo/Contrib/fastlz"
+				},
+				{
+					"backtrace" : 12,
+					"isSystem" : true,
+					"path" : "E:/recastnavigation/recastnavigation-master/RecastDemo/Contrib"
+				},
+				{
+					"backtrace" : 13,
+					"isSystem" : true,
+					"path" : "E:/recastnavigation/recastnavigation-master/RecastDemo/Contrib/SDL/include"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 3,
+					"define" : "main=SDL_main"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 5,
+					"path" : "E:/recastnavigation/recastnavigation-master/RecastDemo/../DebugUtils/Include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "E:/recastnavigation/recastnavigation-master/RecastDemo/../Detour/Include"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "E:/recastnavigation/recastnavigation-master/RecastDemo/../DetourCrowd/Include"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "E:/recastnavigation/recastnavigation-master/RecastDemo/../DetourTileCache/Include"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "E:/recastnavigation/recastnavigation-master/RecastDemo/../Recast/Include"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "E:/recastnavigation/recastnavigation-master/RecastDemo/Include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "E:/recastnavigation/recastnavigation-master/DebugUtils/Include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "E:/recastnavigation/recastnavigation-master/Recast/Include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "E:/recastnavigation/recastnavigation-master/Detour/Include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "E:/recastnavigation/recastnavigation-master/DetourTileCache/Include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "E:/recastnavigation/recastnavigation-master/DetourCrowd/Include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "E:/recastnavigation/recastnavigation-master/RecastDemo/Contrib/fastlz"
+				},
+				{
+					"backtrace" : 12,
+					"isSystem" : true,
+					"path" : "E:/recastnavigation/recastnavigation-master/RecastDemo/Contrib"
+				},
+				{
+					"backtrace" : 13,
+					"isSystem" : true,
+					"path" : "E:/recastnavigation/recastnavigation-master/RecastDemo/Contrib/SDL/include"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 4,
+			"id" : "DebugUtils::@70086530efcf9f3aa15a"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "DetourCrowd::@d390c63f21d3b25443dd"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "Detour::@af02d6d6a7de8e2ccf3d"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "DetourTileCache::@2b762027dffdb35e9e0d"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "Recast::@d233a775a36d06e0885c"
+		}
+	],
+	"id" : "RecastDemo::@b127d3e209700d9004d6",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 2,
+				"path" : "bin"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "C:/Program Files (x86)/RecastNavigation"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-mwindows",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-lopengl32",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-lglu32",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "DebugUtils\\libDebugUtils-d.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "Detour\\libDetour-d.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "DetourCrowd\\libDetourCrowd-d.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "DetourTileCache\\libDetourTileCache-d.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "Recast\\libRecast-d.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "..\\RecastDemo\\Contrib\\SDL\\lib\\SDL2main.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "..\\RecastDemo\\Contrib\\SDL\\lib\\SDL2.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "Detour\\libDetour-d.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "RecastDemo",
+	"nameOnDisk" : "RecastDemo.exe",
+	"paths" : 
+	{
+		"build" : "RecastDemo",
+		"source" : "RecastDemo"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "RecastDemo/Contrib/fastlz/fastlz.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "RecastDemo/Source/ChunkyTriMesh.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "RecastDemo/Source/ConvexVolumeTool.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "RecastDemo/Source/CrowdTool.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "RecastDemo/Source/Filelist.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "RecastDemo/Source/InputGeom.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "RecastDemo/Source/MeshLoaderObj.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "RecastDemo/Source/NavMeshPruneTool.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "RecastDemo/Source/NavMeshTesterTool.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "RecastDemo/Source/OffMeshConnectionTool.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "RecastDemo/Source/PerfTimer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "RecastDemo/Source/Sample.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "RecastDemo/Source/SampleInterfaces.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "RecastDemo/Source/Sample_Debug.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "RecastDemo/Source/Sample_SoloMesh.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "RecastDemo/Source/Sample_TempObstacles.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "RecastDemo/Source/Sample_TileMesh.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "RecastDemo/Source/TestCase.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "RecastDemo/Source/ValueHistory.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "RecastDemo/Source/imgui.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "RecastDemo/Source/imguiRenderGL.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "RecastDemo/Source/main.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}
